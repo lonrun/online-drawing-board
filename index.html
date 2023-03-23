@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <canvas id="drawing-board"></canvas>
+    <div class="container">
+        <div id="user-id-display"></div>
+        <canvas id="drawing-board"></canvas>
+        <div class="toolbar">
+            <label for="brush-size">Brush size:</label>
+            <input type="number" id="brush-size" min="1" value="5">
+          
+            <label for="color-picker">Color:</label>
+            <input type="color" id="color-picker" value="#000000">
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+# Node.js dependencies
+node_modules/
+
+# Logs and other temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
